@@ -1,5 +1,11 @@
 # Database Client for Visual Studio Code
 
+我现在不再免费维护这个项目, 用户需要付费才可使用全部功能, 同时我会投入更多的精力开发这个项目, 中国区高级版价格为68元1年, 需反馈问题可加Q群706495803.
+
+在线文档已迁移至 [doc.database-client.com](https://doc.database-client.com/#/zh/).
+
+---
+
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2">
     <img src="https://img.shields.io/vscode-marketplace/v/cweijan.vscode-mysql-client2.svg?label=vscode%20marketplace">
@@ -19,21 +25,20 @@
 </p>
 <br>
 
-该项目为Visual Studio Code的数据库客户端扩展, 意在让你的生命更加简单, 支持**MySQL/MariaDB, PostgreSQL, SQLite, Redis**以及**ElasticSearch**的管理.
+该项目为Visual Studio Code的数据库客户端扩展, 支持**MySQL/MariaDB, PostgreSQL, SQLite, Redis, ClickHouse, 达梦**以及**ElasticSearch**的管理, 且可以作为一个SSH客户端, 最大程度地提高你的生产力!
 
-为了让软件得以继续维护, 现在最新版本已经闭源, 你任然可以免费使用该软件, 但无法使用全部功能, 使用支付宝购买为68元1年.
+<a href="https://database-client.com" target="_blank"><img src="./public/logo_dark.png" alt="Logo" style="height: auto !important;width: auto !important;" ></a>
 
-<a href="https://database-client.com" target="_blank"><img src="./public/icon.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## 功能
 
-- 功能
-  - [连接](#连接)
-  - [数据表](#数据表)
-  - [执行SQL](#执行SQL)
-  - [备份/导出](#备份/导出)
-  - [设置](#设置)
-  - [表过滤](#表过滤)
-  - [生成测试数据](#生成测试数据)
-  - [历史记录](#历史记录)
+- [连接](#连接)
+- [数据表](#数据表)
+- [执行SQL](#执行SQL)
+- [备份/导出](#备份/导出)
+- [设置](#设置)
+- [表过滤](#表过滤)
+- [生成测试数据](#生成测试数据)
+- [历史记录](#历史记录)
 
 ## 安装
 
@@ -50,9 +55,8 @@
 
 ## 数据表
 
-1. 点击数据库表打开数据页.
-2. 也可以点击表旁边的按钮打开新的数据页.
-3. 之后便可在页面进行CRUD、数据导出(**Excel、JSON**)等操作.![query](images/QueryTable.jpg)
+1. 点击数据库表打开数据页, 点击表旁边的按钮则是打开新的数据页.
+2. 之后就可在页面进行CRUD、数据导出(**Excel、JSON**)等操作.![query](images/QueryTable.jpg)
 
 ## 执行SQL
 
@@ -88,12 +92,7 @@
 
 该扩展包含一些设置, 可通过以下方式进行设置, 默认的设置就可以得到最好的使用体验, 不用纠结.
 
-![](images/1611910592756.png)
-
-## 注意事项
-
-1. 对MSSQL, MongoDB和ClickHouse的支持度不高, 只推荐用于浏览数据
-2. SQL格式化停止维护, 勿报告相关问题.
+![img](images/1611910592756.png)
 
 ## 表过滤
 

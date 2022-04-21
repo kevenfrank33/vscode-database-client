@@ -1,4 +1,10 @@
-# git Database Client for Visual Studio Code
+# Database Client for Visual Studio Code
+
+I no longer maintain for free, now users need to pay to use all the features. At the same time I will put more effort into developing this project.
+
+The online document is migrate to https://doc.database-client.com.
+
+---
 
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2">
@@ -19,13 +25,11 @@
 </p>
 <br>
 
-The Database Client make your life easy. It supports manager MySQL/MariaDB, PostgreSQL, SQLite, Redis, and ElasticSearch.
+This project is a database client for VSCode, supports manager **MySQL/MariaDB, PostgreSQL, SQLite, Redis, ClickHouse, 达梦**, and **ElasticSearch**, and works as an **SSH** client, boost your maximum productivity!
 
 > Project site: [vscode-database-client](https://github.com/cweijan/vscode-database-client), [中文文档](README_CN.md)
 
-In order to keep the software maintained, the latest version has been closed source, you can still use the software for free, but you cannot use all the features.
-
-<a href="https://database-client.com" target="_blank"><img src="./public/icon.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[![Logo](./public/logo_dark.png)](https://database-client.com)
 
 ## Features
 
@@ -102,11 +106,6 @@ The default settings can get the best experience, don't worry
 
 ![image](https://user-images.githubusercontent.com/27798227/146523121-9de9c708-8a8e-4e3b-ae1d-9da36f3217e1.png)
 ![](images/1611910592756.png)
-
-## Note
-
-1. MSSQL, ClickHouse and MongoDB dit not get higt support and are only recommended for browsing data.
-2. SQL formatter stop maintenance, do not report related issue.
 
 ## Filter
 
