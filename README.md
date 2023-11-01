@@ -1,6 +1,6 @@
-# Database Client for Visual Studio Code
+#### This repository is the early source code of this extension, the new version is closed source.
 
-I no longer maintain for free, now users need to pay to use all the features. At the same time I will put more effort into developing this project.
+# Database Client for Visual Studio Code
 
 The online document is migrate to https://doc.database-client.com.
 
